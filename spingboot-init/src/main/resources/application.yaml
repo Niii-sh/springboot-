@@ -1,0 +1,13 @@
+server:
+  port: 8082
+
+name: abc
+#对象
+person:
+  name: ${name} #zhangsan
+  age: 20
+
+#数组:
+address:
+  - beijing
+  - shanghai
